@@ -1,0 +1,62 @@
+/* Estilos Login */
+
+
+.welcome {
+	height: 450px;
+	border-radius: 3px 0 0 3px;
+	/*background-image: url(../img/bg/bg-login.png);*/
+}
+
+.form-login {
+	height: 450px;
+	background-color: #FFFFFF;
+	border-radius: 0 3px 3px 0;
+}
+
+Form {
+	width: 270px;
+}
+
+.input-text {
+	display: block;
+	width: 100%;
+	height: calc(1.5em + .75rem + 2px);
+	padding: 5px 0;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 2.0;
+	color: #979797;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 0;
+	border-bottom: 1px solid #ced4da;
+	transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+
+/* Estilos icon Login */
+
+.bg-light-social {
+	background-color: #938CB1;
+}
+
+.icon-social {
+	border-radius: 100%;
+	width: 35px;
+	height: 35px;
+	line-height: 35px !important;
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+}
+
+/* Link button style */
+
+.link-button {
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	display: inline;
+	margin: 0;
+	padding: 0;
+}

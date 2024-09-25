@@ -1,0 +1,99 @@
+@font-face {
+  font-family: "mimetypes";
+  /* src: url("Flaticon.eot");url("Flaticon.eot?#iefix") format("embedded-opentype") */
+  src: url("Flaticon.woff2") format("woff2"),
+       url("Flaticon.woff") format("woff"),
+       url("Flaticon.ttf") format("truetype"),
+       url("Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "mimetypes";
+    src: url("Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+/* .fimanager:before {
+      display: inline-block;
+  font-family: "Mimetypes";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    display: block;
+} */
+
+[class^="mimetypes-"], [class*=" mimetypes-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'mimetypes' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.mimetypes-3ds:before { content: "\f100"; }
+.mimetypes-ai-format:before { content: "\f101"; }
+.mimetypes-app:before { content: "\f102"; }
+.mimetypes-asp:before { content: "\f103"; }
+.mimetypes-bat:before { content: "\f104"; }
+.mimetypes-c-:before { content: "\f105"; }
+.mimetypes-c-sharp:before { content: "\f106"; }
+.mimetypes-css:before { content: "\f107"; }
+.mimetypes-csv:before { content: "\f108"; }
+.mimetypes-dat-format:before { content: "\f109"; }
+.mimetypes-dll:before { content: "\f10a"; }
+.mimetypes-doc:before { content: "\f10b"; }
+.mimetypes-docx:before { content: "\f10c"; }
+.mimetypes-dwg:before { content: "\f10d"; }
+.mimetypes-eml:before { content: "\f10e"; }
+.mimetypes-eps:before { content: "\f10f"; }
+.mimetypes-exe:before { content: "\f110"; }
+.mimetypes-flv:before { content: "\f111"; }
+.mimetypes-gif:before { content: "\f112"; }
+.mimetypes-html:before { content: "\f113"; }
+.mimetypes-ics-format:before { content: "\f114"; }
+.mimetypes-iso:before { content: "\f115"; }
+.mimetypes-jar:before { content: "\f116"; }
+.mimetypes-jpeg:before { content: "\f117"; }
+.mimetypes-jpg:before { content: "\f118"; }
+.mimetypes-js-format:before { content: "\f119"; }
+.mimetypes-log-format:before { content: "\f11a"; }
+.mimetypes-mdb:before { content: "\f11b"; }
+.mimetypes-mov:before { content: "\f11c"; }
+.mimetypes-mp3:before { content: "\f11d"; }
+.mimetypes-mp4:before { content: "\f11e"; }
+.mimetypes-pdf:before { content: "\f11f"; }
+.mimetypes-obj:before { content: "\f120"; }
+.mimetypes-otf:before { content: "\f121"; }
+.mimetypes-php:before { content: "\f122"; }
+.mimetypes-png:before { content: "\f123"; }
+.mimetypes-ppt:before { content: "\f124"; }
+.mimetypes-psd:before { content: "\f125"; }
+.mimetypes-pub:before { content: "\f126"; }
+.mimetypes-rar:before { content: "\f127"; }
+.mimetypes-sql:before { content: "\f128"; }
+.mimetypes-srt:before { content: "\f129"; }
+.mimetypes-svg:before { content: "\f12a"; }
+.mimetypes-ttf:before { content: "\f12b"; }
+.mimetypes-txt:before { content: "\f12c"; }
+.mimetypes-wav-format:before { content: "\f12d"; }
+.mimetypes-xls:before { content: "\f12e"; }
+.mimetypes-xlsx:before { content: "\f12f"; }
+.mimetypes-xml:before { content: "\f130"; }
+.mimetypes-zip:before { content: "\f131"; }

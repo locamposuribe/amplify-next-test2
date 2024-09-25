@@ -8,21 +8,35 @@
 }
 
 .description {
-  display: inherit;
-  justify-content: inherit;
-  align-items: inherit;
-  font-size: 0.85rem;
-  max-width: var(--max-width);
-  width: 100%;
-  z-index: 2;
-  font-family: var(--font-mono);
+  display: block;
+	width: 100%;
+	height: calc(1.5em + .75rem + 2px);
+	padding: 5px 0;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 2.0;
+	color: #979797;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 0;
+	border-bottom: 1px solid #ced4da;
+	transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
 .description a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0.5rem;
+  display: block;
+	width: 100%;
+	height: calc(1.5em + .75rem + 2px);
+	padding: 5px 0;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 2.0;
+	color: #979797;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 0;
+	border-bottom: 1px solid #ced4da;
+	transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
 .description p {

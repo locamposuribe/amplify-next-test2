@@ -1,0 +1,15 @@
+export { ReactComponent as AdvertenciaIcon } from "./advertencia.svg";
+export { ReactComponent as ArchivoIcon } from "./archivo.svg";
+export { ReactComponent as BikeIcon } from "./bike.svg";
+export { ReactComponent as BipedestationIcon } from "./bipedestation.svg";
+export { ReactComponent as CicloergometroIcon } from "./cicloergometro.svg";
+export { ReactComponent as DescansandoIcon } from "./descansando.svg";
+export { ReactComponent as EvaluationIcon } from "./evaluation.svg";
+export { ReactComponent as FeedbackIcon } from "./feedback.svg";
+export { ReactComponent as GeneralIcon } from "./general.svg";
+export { ReactComponent as MarchIcon } from "./march.svg";
+export { ReactComponent as RowingIcon } from "./rowing.svg";
+export { ReactComponent as SensorIcon } from "./sensor.svg";
+export { ReactComponent as SequentialIcon } from "./sequential.svg";
+export { ReactComponent as TreadmillIcon } from "./treadmill.svg";
+export { ReactComponent as VideoIcon } from "./video.svg";
